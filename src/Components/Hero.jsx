@@ -48,9 +48,11 @@ function Hero() {
                             className="relative h-full w-full flex justify-start items-center"
                         >
                             <img
-                                src="" 
+                                src="https://media.istockphoto.com/id/514452058/photo/handsome-east-asian-businessman.jpg?s=612x612&w=0&k=20&c=MRi4W3Z1gDj2FUYv5NwjfduVhOObiDPfikQo7JWr86w=" 
+                                // src="https://media.istockphoto.com/id/452993073/photo/studio-shot-portrait.jpg?s=612x612&w=0&k=20&c=nipbxoYjyzCRsDHuIzglACLYxS8vxzySVcjdn4L6-rE=" 
+                                // src="https://res.cloudinary.com/dllgqcla4/image/upload/v1722415434/WIN_20240731_14_10_56_Pro_dqirdo.jpg"
 
-                                className="h-full w-full rounded-full"
+                                className="h-full w-full rounded-full cursor-zoom-out"
                                 alt="Avatar"
                             />
                             
