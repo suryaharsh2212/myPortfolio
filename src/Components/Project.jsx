@@ -40,7 +40,7 @@ function Project() {
   };
 
   return (
-    <div className="p-5" style={{border:"2px solid whitesmoke"}}>
+    <div className="md:p-5" style={{border:"2px solid whitesmoke"}}>
       <h1 className="text-center text-5xl mt-10 mb-10 text-indigo-800 ">PROJECTS</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 md:p-5 md:ml-20">
         <div className="card card-compact bg-base-100 w-96 shadow-xl  p-4 hover:border hover:scale-95">
