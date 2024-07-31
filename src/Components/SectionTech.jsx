@@ -2,8 +2,8 @@ import React from 'react'
 
 function SectionTech() {
     return (
-        <div className='md:p-10'>
-            <h1 className=' font-bold text-4xl mb-5 text-blue-600 md:ml-10'>TechStack I am familiar with....!</h1>
+        <div className='md:p-10 md:mt-40 border'>
+            <h1 className=' font-bold text-center text-4xl mb-5 text-violet-900 md:ml-10'> MY SKILLSET</h1>
             <div className="container mx-auto p-4">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
                     <div className=" flex justify-center items-center shadow-md rounded-md p-6 text-white"><img src="https://sproutroad.com/wp-content/uploads/2019/07/react.png" alt="" /></div>
