@@ -13,7 +13,7 @@ function Navbar({ scrollToProjects }) {
         <div className="flex-none md:mr-5">
           <ul className="menu menu-horizontal md:gap-7 md:text-lg">
             <li className='mt-1'>
-              <a href='#project'>Projects</a>
+              <button onClick={scrollToProjects}>Projects</button>
             </li>
             <li className='mt-1'><a href="#">About Me</a></li>
             <li>

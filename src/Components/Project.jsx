@@ -4,7 +4,7 @@ import { motion, AnimatePresence, useInView } from "framer-motion";
 function Project() {
   const images = [
     "https://img.freepik.com/free-photo/3d-rendering-people-avatars-zoom-call_23-2149576739.jpg?ga=GA1.1.1500486508.1710956728&semt=ais_hybrid",
-    "https://res.cloudinary.com/dllgqcla4/image/upload/v1722404993/Screenshot_2024-07-31_111813_m2slnz.png",
+    "https://res.cloudinary.com/dllgqcla4/image/upload/v1722517457/giggle_zncxgf.png",
     "https://res.cloudinary.com/dllgqcla4/image/upload/v1722405850/Screenshot_2024-07-31_113340_hogmvz.png",
     "https://res.cloudinary.com/dllgqcla4/image/upload/v1722406081/Screenshot_2024-07-31_113729_itqbvi.png",
   ];
