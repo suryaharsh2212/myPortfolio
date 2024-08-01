@@ -5,7 +5,6 @@ function AboutMe() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('submitted');
     const phoneNumber = '7488491434'; 
     const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
     window.open(whatsappLink, '_blank');
@@ -23,15 +22,15 @@ function AboutMe() {
 			<form onSubmit={handleSubmit} className="self-stretch space-y-3">
 				<div>
 					<label htmlFor="name" className="text-sm sr-only">Your name</label>
-					<input id="name" type="text" placeholder="Your name" className="w-full p-3 rounded-md focus:ring focus:ring-violet-400 border-gray-700" />
+					<input id="name" type="text" placeholder="Your name" className="w-full p-3 rounded-md focus:ring focus:ring-violet-400 border-gray-700 text-black" />
 				</div>
 				<div>
 					<label htmlFor="lastname" className="text-sm sr-only">Email address</label>
-					<input id="lastname" type="text" placeholder="Email address" className="w-full p-3 rounded-md focus:ring focus:ring-violet-400 border-gray-700" />
+					<input id="lastname" type="text" placeholder="Email address" className="w-full p-3 rounded-md focus:ring focus:ring-violet-400 border-gray-700 text-black" />
 				</div>
         <div>
 					<label htmlFor="lastname" className="text-sm sr-only">Email address</label>
-					<input id="lastname" value={message} onChange={(e)=>setMessage(e.target.value)} type="text" placeholder="Your Message" className="w-full p-5 rounded-md focus:ring focus:ring-violet-400 border-gray-700 text-black" />
+					<textarea id="lastname" value={message} onChange={(e)=>setMessage(e.target.value)} type="text" placeholder="Your Message" className="w-full p-5 rounded-md focus:ring focus:ring-violet-400 border-gray-700 text-black" />
 				</div>
 				<button type="submit" className="w-full py-2 font-semibold rounded bg-violet-300 text-gray-900">Send</button>
 			</form>
