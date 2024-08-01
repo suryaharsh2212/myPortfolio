@@ -5,11 +5,11 @@ function SectionTech() {
    
 
     return (
-        <div className='md:p-10 md:mt-40 border'>
+        <div className='md:p-10 md:mt-40 '>
             <section className="m-4 md:m-8  text-gray-100">
                 <div className="container mx-auto p-4 my-6 space-y-2 text-center">
                     <h2 className="text-5xl text-violet-950 font-bold">Experience with Technologies</h2>
-                    <p className="text-gray-400">Libero minima optio qui</p>
+                    <p className="text-gray-400"></p>
                 </div>
                 <div className="container mx-auto grid justify-center p-5 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                     {Tech.map((element, index) => (
