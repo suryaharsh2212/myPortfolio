@@ -1,10 +1,13 @@
 
+
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
+import Me from "./Components/Me";
 import Navbar from "./Components/Navbar";
 import Project from "./Components/Project";
 import SectionTech from "./Components/SectionTech"; 
+
 import { useRef } from "react";
 function App() {
   const projRef=useRef();
@@ -17,10 +20,13 @@ function App() {
     <div>
       <Navbar fun={scrollToProjects}/>  
       <Hero/>
-       <Contact/>
+       <Me/>
+       
       <Project   ref={projRef}/>
   
       <SectionTech/>
+      <Contact/>
+
       <Footer/>
     </div>
   );

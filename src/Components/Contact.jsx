@@ -35,7 +35,7 @@ function Contact() {
 				<button type="submit" className="w-full py-2 font-semibold rounded bg-violet-300 text-gray-900">Send</button>
 			</form>
 		</div>
-		<img src="https://res.cloudinary.com/dllgqcla4/image/upload/v1722500159/undraw_Join_re_w1lh_j3kpwd.png" alt="" className="object-cover h-full w-full rounded-md xl:col-span-3 bg-slate-100" />
+		<img src="https://img.freepik.com/free-vector/person-addicted-social-media_23-2148403723.jpg?ga=GA1.1.1500486508.1710956728&semt=ais_hybrid" alt="" className="object-cover h-full w-full rounded-md xl:col-span-3 bg-slate-100" />
 	</div>
 </section>
     </div>
