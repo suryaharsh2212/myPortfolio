@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function AboutMe() {
+function Contact() {
   const [message, setMessage] = useState('');
 
   const handleSubmit = (e) => {
@@ -42,4 +42,4 @@ function AboutMe() {
   )
 }
 
-export default AboutMe
+export default Contact
