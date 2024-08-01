@@ -10,7 +10,7 @@ function AboutMe() {
     window.open(whatsappLink, '_blank');
   };
   return (
-    <div>
+    <div className="mt-40">
      <section className=" md:p-20 text-white" >
 	<div className="container grid gap-6 mx-auto text-center lg:grid-cols-2 xl:grid-cols-5">
 		<div className="w-full px-6 py-16 rounded-md sm:px-12 md:px-16 xl:col-span-2 "  style={{ backgroundImage: "linear-gradient(#DA22FF,#9733EE)" }}>
