@@ -51,10 +51,11 @@ function Hero() {
                         >
                             <img
 
-
+                                 src="https://img.freepik.com/free-photo/3d-illustration-cute-cartoon-boy-with-backpack-his-back_1142-40542.jpg?ga=GA1.1.1500486508.1710956728&semt=sph"
                                 className="h-full w-full rounded-full cursor-zoom-out"
                                 alt="Coming soon"
                             />
+                            Coming soon image
 
                             <motion.div
                                 className="absolute inset-0 rounded-full border-4 border-transparent ring-inset ring-1  ring-offset-2"
