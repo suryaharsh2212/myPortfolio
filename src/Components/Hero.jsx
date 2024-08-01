@@ -28,7 +28,9 @@ function Hero() {
                     </p>
                     <div className="flex w-full ">
                         <button className="bg-blue-500 rounded-md text-white px-5 h-10 md:ml-20 mt-5">Resume </button>
-                         <h1 className="mt-7 ml-5 font-light hover:underline"> My Works</h1>
+                    
+
+                         <h1 className="mt-5 ml-5 flex font-light hover:underline">   <span className="ml-1 mb-5"><a target="_blank" href="https://www.linkedin.com/in/surya-prakash-89a660248/"><img className="h-10 w-10 rounded-3xl" src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="" /></a></span></h1>
                     </div>
                 </motion.div>
 
