@@ -6,9 +6,9 @@ function Me() {
     <div id="about-me" className="md:p-10 p-5 bg-gray-100 text-gray-800">
       <h1 className="text-center text-5xl mt-10 mb-10 text-indigo-800">About Me</h1>
       <div className="flex flex-col md:flex-row items-center md:items-start md:justify-center gap-10">
-        <div className="w-64 h-64 rounded-full overflow-hidden">
+        <div className="w-72 h-72 rounded-full overflow-hidden">
           <img
-            src="https://res.cloudinary.com/dllgqcla4/image/upload/v1709635825/zbqst0tvwrjp2vzgl1eb.jpg" 
+            src="" 
             alt="Profile"
             className="w-full h-full object-cover"
           />
@@ -19,11 +19,7 @@ function Me() {
             beautiful and functional websites. I have a background in Mern stack and have been
             working with web technologies such as  JavaScript,Tailwind ,for backend Node.js and goods hands on creating an API and various frameworks and libraries.
           </p>
-          <p className="text-lg mb-4">
-            I love solving problems and am always eager to learn new things. In my spare time, I enjoy
-            Gaming. I believe in continuous learning and strive to keep up with the
-            latest trends and best practices in web development.
-          </p>
+         
           <p className="text-lg">
             Feel free to explore my portfolio to see some of the projects I've worked on. I'm always open to
             new opportunities and collaborations. Let's create something amazing together!
