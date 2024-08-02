@@ -5,13 +5,13 @@ function SectionTech() {
    
 
     return (
-        <div className='md:p-10 md:mt-40 '>
+        <div className='md:p-10 mt-40 md:mt-40 '>
             <section className="m-4 md:m-8  text-gray-100">
                 <div className="container mx-auto p-4 my-6 space-y-2 text-center">
                     <h2 className="text-5xl text-violet-950 font-bold">Experience with Technologies</h2>
                     <p className="text-gray-400"></p>
                 </div>
-                <div className="container mx-auto grid justify-center p-5 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="container mx-auto grid justify-center md:p-5 gap-3 md:gap-6 sm:grid-cols-2 grid-cols-2  lg:grid-cols-3">
                     {Tech.map((element, index) => (
                         <InViewComponent key={index} index={index} element={element} />
                     ))}
@@ -28,13 +28,13 @@ const InViewComponent = ({ element, index }) => {
     return (
         <motion.div
             ref={ref}
-            className="flex flex-col items-center p-5 bg-white hover:bg-slate-100 transition-transform duration-300 hover:scale-105 shadow-lg rounded-lg text-zinc-800"
+            className="flex flex-col items-center p-2 md:p-5 h-60 w-full md:full bg-white hover:bg-slate-100 transition-transform duration-300 hover:scale-105 shadow-lg rounded-lg text-zinc-800"
             initial={{ opacity: 0, y: 50 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.5, delay: index * 0.1 }}
         >
-            <img className='h-20 w-15' src={element.link} alt="Error in loading" />
-            <h3 className="my-3 text-3xl font-semibold">{element.name}</h3>
+            <img className='h-15 w-1/2 md:h-20  md:w-20' src={element.link} alt="Error in loading" />
+            <h3 className="my-3 text-1xl md:text-3xl font-semibold">{element.name}</h3>
             <div className="space-y-1 leading-tight">
                 <p>{element.content}</p>
             </div>
