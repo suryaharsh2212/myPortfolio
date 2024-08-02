@@ -13,12 +13,12 @@ function Navbar({ scrollToProjects }) {
         <div className="flex-none md:mr-5">
           <ul className="menu menu-horizontal md:gap-7 md:text-lg">
             <li className='mt-1'>
-              <button onClick={scrollToProjects}>Projects</button>
+              <a href='#project'>Projects</a>
             </li>
-            <li className='mt-1'><a href="#">About Me</a></li>
+            <li className='mt-1'><a href="#about-me">About Me</a></li> 
             <li>
               <a target='_blank' href="https://github.com/suryaharsh2212">
-                <img className='h-6 w-6 md:h-8 md:w-8' src="https://cdn-icons-png.flaticon.com/128/733/733553.png" alt="" />
+                <img className='h-6 w-6 md:h-8 md:w-8 mr-2' src="https://cdn-icons-png.flaticon.com/128/733/733553.png" alt="" />
               </a>
             </li>
           </ul>

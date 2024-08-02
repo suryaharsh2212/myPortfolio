@@ -7,7 +7,7 @@ function Me() {
       <h1 className="text-center text-5xl mt-10 mb-10 text-indigo-800">About Me</h1>
       <div className="flex flex-col md:flex-row items-center md:items-start md:justify-center gap-10">
         <div className="w-72 h-72 rounded-full overflow-hidden">
-          <img
+          <img 
             src="" 
             alt="Profile"
             className="w-full h-full object-cover"
