@@ -30,7 +30,7 @@ function Hero() {
                         <a className=" rounded-md  bg-sky-600 text-white px-5 h-10 md:ml-20 mt-5 flex justify-center items-center"  href="/resume.pdf" target="_blank" rel="noopener noreferrer" >Resume </a>
 
 
-                        <h1 className="mt-5 ml-5 flex font-light hover:underline">   <span className="ml-1 mb-5"><a target="_blank" href="https://www.linkedin.com/in/surya-prakash-89a660248/"><img className="h-10 w-10 rounded-3xl" src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="" /></a></span></h1>
+                        <h1 className="mt-5 ml-5 flex font-light hover:underline">   <span className="ml-1 mb-5"><a target="_blank" href="https://www.linkedin.com/in/surya-prakash-89a660248/"><img className="h-10 w-10 rounded" src="https://cdn-icons-png.flaticon.com/128/1384/1384171.png" alt="" /></a></span></h1>
                     </div>
                 </motion.div>
 
