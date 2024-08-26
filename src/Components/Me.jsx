@@ -8,7 +8,7 @@ function Me() {
       <div className="flex flex-col md:flex-row items-center md:items-start md:justify-center gap-10">
         <div className="w-72 h-72 rounded-full overflow-hidden">
           <img 
-            src="" 
+            src="https://res.cloudinary.com/dllgqcla4/image/upload/v1724661242/WhatsApp_Image_2024-08-26_at_14.03.09_67751680_hgfp83.jpg" 
             alt="Profile"
             className="w-full h-full object-cover"
           />

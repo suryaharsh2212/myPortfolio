@@ -9,11 +9,11 @@ function Project() {
     "https://res.cloudinary.com/dllgqcla4/image/upload/v1722406081/Screenshot_2024-07-31_113729_itqbvi.png",
   ];
   
-  const justeat = [
+  const spicemaven = [
     "https://img.freepik.com/free-vector/flat-design-food-lounge-facebook-cover_23-2149188386.jpg?ga=GA1.1.1500486508.1710956728&semt=ais_hybrid",
-    "https://res.cloudinary.com/dllgqcla4/image/upload/v1722409397/justeat1_nykzcs.png",
-    "https://res.cloudinary.com/dllgqcla4/image/upload/v1722409903/Screenshot_2024-07-31_124114_izhqzq.png",
-    "https://res.cloudinary.com/dllgqcla4/image/upload/v1722409990/Screenshot_2024-07-31_124235_so2mu5.png",
+     "https://res.cloudinary.com/dllgqcla4/image/upload/v1724660884/1_rlpm5q.png",
+     "https://res.cloudinary.com/dllgqcla4/image/upload/v1724660946/2_giyafq.png",
+     "https://res.cloudinary.com/dllgqcla4/image/upload/v1724660977/restromain_sgxa8j.png"
   ];
   
   const recepie = [
@@ -49,18 +49,19 @@ function Project() {
       <h1 className="text-center text-5xl mt-10 mb-10 text-indigo-800">PROJECTS</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 md:p-5 md:ml-20">
         {[
+           {
+            images: spicemaven,
+            title: "Spice Maven",
+            description: "Its a food ordering application with Ola maps integration.",
+            link: "https://spicemaven-online-food-ordering.vercel.app/",
+          },
           {
             images: images,
             title: "Giggle chat",
             description: "It's a realtime chat application made using MERN Stack.",
             link: "https://real-time-chat-application-uyhn.vercel.app/",
           },
-          {
-            images: justeat,
-            title: "JustEat",
-            description: "Its a simple food ordering application with variety of restaurant collections.",
-            link: "https://justeat12.netlify.app/",
-          },
+         
           {
             images: recepie,
             title: "Recepie Finder",
