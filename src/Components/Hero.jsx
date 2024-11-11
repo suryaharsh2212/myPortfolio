@@ -27,8 +27,7 @@ function Hero() {
                         Welcome  to my corner of the digital world. I’m passionate about crafting innovative and engaging web experiences, and I’m excited to share my journey and projects with you. Dive in and explore what drives me to create!
                     </p>
                     <div className="flex w-full ">
-                        <a className=" rounded-md  bg-sky-600 text-white px-5 h-10 md:ml-20 mt-5 flex justify-center items-center"  href="/SuryaPrakash_Resume.docx" target="_blank" rel="noopener noreferrer" >Resume </a>
-
+                        <a className=" rounded-md  bg-sky-600 text-white px-5 h-10 md:ml-20 mt-5 flex justify-center items-center"  href="/SuryaPrakashResumeNew__.docx" target="_blank" rel="noopener noreferrer" >Resume </a>
 
                         <h1 className="mt-5 ml-5 flex font-light hover:underline">   <span className="ml-1 mb-5"><a target="_blank" href="https://www.linkedin.com/in/surya-prakash-89a660248/"><img className="h-10 w-10 rounded" src="https://cdn-icons-png.flaticon.com/128/1384/1384171.png" alt="" /></a></span></h1>
                     </div>

@@ -30,7 +30,6 @@ function App() {
        <Me/>
        
       <Project   ref={projRef}/>
-  
       <SectionTech/>
       <Contact/>
 
