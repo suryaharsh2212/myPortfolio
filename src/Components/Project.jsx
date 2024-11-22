@@ -64,7 +64,7 @@ function Project() {
          
           {
             images: recepie,
-            title: "Recepie Finder",
+            title: "Recipe Finder",
             description: "It's a simple recipe finder made using plain HTML, CSS, and JavaScript with an API.",
             link: "https://recipie-finderr.netlify.app/",
           },
