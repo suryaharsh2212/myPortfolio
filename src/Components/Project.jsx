@@ -8,21 +8,21 @@ function Project() {
     "https://res.cloudinary.com/dllgqcla4/image/upload/v1722405850/Screenshot_2024-07-31_113340_hogmvz.png",
     "https://res.cloudinary.com/dllgqcla4/image/upload/v1722406081/Screenshot_2024-07-31_113729_itqbvi.png",
   ];
-  
+
   const spicemaven = [
     "https://img.freepik.com/free-vector/flat-design-food-lounge-facebook-cover_23-2149188386.jpg?ga=GA1.1.1500486508.1710956728&semt=ais_hybrid",
-     "https://res.cloudinary.com/dllgqcla4/image/upload/v1724660884/1_rlpm5q.png",
-     "https://res.cloudinary.com/dllgqcla4/image/upload/v1724660946/2_giyafq.png",
-     "https://res.cloudinary.com/dllgqcla4/image/upload/v1724660977/restromain_sgxa8j.png"
+    "https://res.cloudinary.com/dllgqcla4/image/upload/v1724660884/1_rlpm5q.png",
+    "https://res.cloudinary.com/dllgqcla4/image/upload/v1724660946/2_giyafq.png",
+    "https://res.cloudinary.com/dllgqcla4/image/upload/v1724660977/restromain_sgxa8j.png"
   ];
-  
+
   const recepie = [
     "https://img.freepik.com/free-photo/italian-meatball-soup-stelline-gluten-free-pasta-bowl-black-table_2829-18282.jpg?size=626&ext=jpg&ga=GA1.1.1500486508.1710956728&semt=ais_hybrid",
     "https://res.cloudinary.com/dllgqcla4/image/upload/v1722421882/recepie-1_wgd6kb.png",
     "https://res.cloudinary.com/dllgqcla4/image/upload/v1722421883/Screenshot_2024-07-31_160036_yuzazr.png",
     "https://res.cloudinary.com/dllgqcla4/image/upload/v1722408924/medium-shot-cartoonish-boy-with-burger_23-2151033916_nifeic.avif",
   ];
-  
+
   const [time, setTime] = useState(0);
 
   useEffect(() => {
@@ -49,7 +49,7 @@ function Project() {
       <h1 className="text-center text-5xl mt-10 mb-10 text-indigo-800">PROJECTS</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 md:p-5 md:ml-20">
         {[
-           {
+          {
             images: spicemaven,
             title: "Spice Maven",
             description: "Its a food ordering application with Ola maps integration.",
@@ -61,7 +61,7 @@ function Project() {
             description: "It's a realtime chat application made using MERN Stack.",
             link: "https://real-time-chat-application-uyhn.vercel.app/",
           },
-         
+
           {
             images: recepie,
             title: "Recipe Finder",
