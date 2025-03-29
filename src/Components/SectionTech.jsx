@@ -87,22 +87,7 @@ const Tech = [
         link: "https://res.cloudinary.com/dllgqcla4/image/upload/v1722496231/redux-removebg-preview_oxiicy.png",
         content: "Official, recommended way to write Redux logic"
     },
-    {
-        name: "Ably",
-        link: "https://th.bing.com/th/id/OIP.e_0-GNZxvuzmixYSJtJ9BAAAAA?w=139&h=150&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-        content: "Platform for real-time data delivery"
-    },
-    {
-        name: "Cloudinary",
-        link: "https://th.bing.com/th?id=OIP.82kz9qEta_iEtdQsp6UuZAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
-        content: "Cloud-based image and video management solution"
-    },
-    {
-        name:"NextJS",
-        link:"https://th.bing.com/th/id/OIP.l7Sf8CQ7XDFbiN0JRc7vOAHaHa?w=193&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-        content:"Currently Working on Next JS learn modrn routing and rendering"
-
-    }
+  
 ];
 
 export default SectionTech;
