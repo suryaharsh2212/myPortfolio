@@ -53,7 +53,7 @@ function Project() {
             images: spicemaven,
             title: "Spice Maven",
             description: "Its a food ordering application with Ola maps integration.",
-            link: "https://spicemaven-online-food-ordering.vercel.app/",
+            link: "https://spicemaven.vercel.app/",
           },
           {
             images: images,

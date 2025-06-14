@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import surya from "../Images/Surya.png"
 const variants = {
     hidden: { y: 50, opacity: 0 },
     visible: { y: 0, opacity: 1 },
@@ -50,8 +50,8 @@ function Hero() {
                         >
                             <img
 
-                                 src="https://img.freepik.com/free-photo/3d-illustration-cute-cartoon-boy-with-backpack-his-back_1142-40542.jpg?ga=GA1.1.1500486508.1710956728&semt=sph"
-                                className="h-full w-full rounded-full cursor-zoom-out"
+                                src={surya}
+                                className="h-full w-full rounded-full cursor-zoom-out z-100"
                                 alt="Coming soon"
                             />
                             Coming soon image
